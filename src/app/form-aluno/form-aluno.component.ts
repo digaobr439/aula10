@@ -19,4 +19,5 @@ export class FormAlunoComponent {
     };
     this.alunoAdicionado.emit(aluno);
   };
+  
 }

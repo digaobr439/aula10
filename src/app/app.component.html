@@ -9,6 +9,9 @@
 
 <body>
   <div>
+    <h1 [ngStyle]= 'obterEstilosParaOCard()'>Adicionar Aluno</h1>
+  </div>
+  <div>
     <app-form-aluno (alunoAdicionado)='onAdicionarAluno($event)'></app-form-aluno>
   </div>
   <div class="row">

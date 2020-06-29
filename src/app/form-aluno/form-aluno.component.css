@@ -1,0 +1,9 @@
+.rodape {
+    text-align: center;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    padding: 8px;
+    margin-top: 12px;
+    width: 100%;
+    display: inline-block;
+}
