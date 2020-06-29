@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Aluno} from './model/aluno';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'aula10';
+  alunos= [];
+
+  onAdicionarAluno(aluno){
+    this.alunos = [aluno, ...this.alunos];
+    console.log(this.alunos);
+  };
 }
